@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+}
+header, footer {
+    background-color: #023047;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+nav a {
+    margin: 0 10px;
+    color: #8ecae6;
+    text-decoration: none;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+main {
+    padding: 20px;
+    text-align: center;
+    background: #fff;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
+}
+footer p {
+    margin: 0;
+    padding: 10px;
+}
+
+footer a {
+    color: #ccc; /* Establece el color inicial de los enlaces */
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    transition: color 0.3s, transform 0.3s; /* Suaviza las transiciones de color y transformación */
+    display: inline-block; /* Importante para aplicar transformaciones */
+}
+
+footer a:hover {
+    color: #fff; /* Cambia el color a blanco cuando el ratón pasa por encima */
+    transform: scale(1.06); /* Aumenta el tamaño del enlace a 110% */
+}
+
+footer a:active {
+    transform: scale(0.9); /* Disminuye el tamaño del enlace a 90% cuando se hace clic */
+}
+
+.header-logo {
+    width: 150px; /* Ancho del logo */
+    height: auto; /* Altura automática para mantener la proporción */
+    margin-bottom: 20px;
+}
+
